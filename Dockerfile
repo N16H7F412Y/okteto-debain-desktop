@@ -16,6 +16,6 @@ RUN unzip ubot.zip
 
 RUN cd ubot/
 
-RUN docker-compose up
+RUN sudo docker-compose up
 
 EXPOSE 80
